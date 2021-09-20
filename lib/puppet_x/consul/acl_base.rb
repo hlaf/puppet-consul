@@ -1,8 +1,8 @@
-require 'puppet_x'
 require 'json'
 require 'net/http'
 require 'uri'
 
+module PuppetX; end
 module PuppetX::Consul
     module PuppetX::Consul::ACLBase
 
